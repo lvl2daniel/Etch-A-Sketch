@@ -58,3 +58,7 @@ body {
     font-size: xx-large;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+#wrapper:hover {
+    cursor:crosshair;
+}
