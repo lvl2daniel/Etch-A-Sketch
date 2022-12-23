@@ -4,7 +4,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: "canvas.jpg";
+    background-image: url(canvas.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -14,14 +17,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: solid;
+    border-style: outset;
     border-width: 8px;
-    border-color: black;
+    border-color: rgb(247, 164, 41);
+    background-color: cornsilk; 
     margin-bottom: auto;
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    transform:translate(-50%, -50%);
     width: 649px;
     height: 649px;
 }
@@ -46,13 +46,10 @@ body {
 }
 
 #input {
-    bottom: 90%;
     overflow-anchor:auto;
-    flex: 1;
-    position: absolute;
-    height: 90px;
-    width: 300px;
-    background-color: rgb(140, 71, 219);    
+    height: 250px;
+    width: 250px;
+    background-color:rgb(247, 164, 41);
     color: black;
     border-radius: 1000px;
     font-size: xx-large;
@@ -61,4 +58,19 @@ body {
 
 #wrapper:hover {
     cursor:crosshair;
+}
+
+#etch {
+    color:rgb(247, 164, 41);
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 8px;
+    border-style: outset;
+    border-color: antiquewhite; 
+}
+
+#input:hover {
+    transform: scale(1.1);
+    border-color:rgb(228, 110, 13);
+    border-width: 4px;
 }

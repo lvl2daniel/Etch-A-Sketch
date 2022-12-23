@@ -1,10 +1,12 @@
 const sizeChange = document.createElement('button');
-
-
+const etch = document.createElement('h3');
 const wrapper = document.createElement('div');
 const body = document.querySelector('body');
 sizeChange.textContent = 'Click to reset & set the size!';
 sizeChange.id = 'input';
+etch.textContent = 'Etch-a-Sketch!'
+etch.id = 'etch';
+body.append(etch);
 body.append(sizeChange);
 wrapper.id = 'wrapper'
 body.append(wrapper);
