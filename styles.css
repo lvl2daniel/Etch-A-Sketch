@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(canvas.jpg);
+    background-color: rgba(0, 0, 0, 0.932);
     background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     border-style: outset;
     border-width: 8px;
     border-color: rgb(247, 164, 41);
-    background-color: cornsilk; 
+    background-color: white;
     margin-bottom: auto;
     width: 649px;
     height: 649px;
@@ -53,7 +53,7 @@ body {
     color: black;
     border-radius: 1000px;
     font-size: xx-large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Bahnschrift', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #wrapper:hover {
@@ -63,14 +63,14 @@ body {
 #etch {
     color:rgb(247, 164, 41);
     font-size: 80px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Bahnschrift', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-width: 8px;
     border-style: outset;
-    border-color: antiquewhite; 
+    border-color: rgb(121, 34, 34); 
 }
 
 #input:hover {
     transform: scale(1.1);
-    border-color:rgb(228, 110, 13);
+    border-color:rgb(121, 34, 34); 
     border-width: 4px;
 }
