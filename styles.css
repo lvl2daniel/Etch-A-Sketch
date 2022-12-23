@@ -4,12 +4,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-image: "canvas.jpg";
 }
 
 
 
-.wrapper {
+#wrapper {
     margin-top: auto;
     display: flex;
     justify-content: center;
@@ -18,16 +18,19 @@ body {
     border-width: 8px;
     border-color: black;
     margin-bottom: auto;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    width: 649px;
+    height: 649px;
 }
 
-.item {
-    height: 25px;
-    width: 25px;
-    padding: 5px;
-    border-style: solid;
+#item {
+    border-style: none;
 }
 
-.row {
+#row {
     display: flex;
     flex-direction: column;    
 }
@@ -40,4 +43,18 @@ body {
 
 .filled {
     background-color: black;
+}
+
+#input {
+    bottom: 90%;
+    overflow-anchor:auto;
+    flex: 1;
+    position: absolute;
+    height: 90px;
+    width: 300px;
+    background-color: rgb(140, 71, 219);    
+    color: black;
+    border-radius: 1000px;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
